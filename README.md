@@ -58,8 +58,8 @@ We can use the list command in GDB to list the source code around a specific loc
 ```
 (gdb) list *(timerfd_clock_was_set+0x4)
 ```
+![Pasted image 20240831000553](https://github.com/user-attachments/assets/ef9ce5ac-b11f-4529-9c13-daffc730f677)
 
-![[Pasted image 20240831000553.png]]
 I am using pwndbg here, a gdb plug-in that provides some extra functionality, but normal gdb will be more than enough.
 ### objdump
 We can disassemble the kernel binary using the following command:
@@ -71,7 +71,7 @@ Once we generate the file, we can search for the memory address 81EE7924, which 
 ![[Pasted image 20240831013039.png]]
 You can analyse the assembly code and its corresponding Kernel C function to identify potential issues, such as incorrect register usage, stack corruption, or unexpected control flow.
 
-# Tools I've found useful
+# Other tools
 ## virtme-ng
 This tool particularly has saved me a lot of time with a noticable speed up the compilation time. My biggest cause of frustration with debugging the kernel was not fixing issues, but waiting for it to finish compiling after adding a couple debug statement.
 
@@ -102,6 +102,8 @@ cscope -d
 ```
 
 Presenting us with a list of search options such as this which we can navigate using tab and the arrow keys
+
+![Pasted image 20240831011426](https://github.com/user-attachments/assets/9c6122c1-a690-430b-800f-35cb73d84177)
 
 
 ## kw - Kernel Workflow Tool
