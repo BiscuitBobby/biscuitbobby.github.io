@@ -1,5 +1,3 @@
-# My microblog to get into kernel debugging
-
 [Dec 3, 2024 Siddharth Menon]
 
 
