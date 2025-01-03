@@ -1,5 +1,6 @@
-[Dec 3, 2024 Siddharth Menon]
+Dec 3, 2024 Siddharth Menon
 
+[View My GitHub Profile](https://github.com/BiscuitBobby)
 
 In this blog I will share my experience diving into kernel debugging and some of the essential tools I’ve used along the way. If you’re just starting out, there are some great blogs to get you started with debugging the kernel such as [this one](https://hackerbikepacker.com/syzbot#35-debugging-with-qemu-and-gdb) by Javier, which covers the basics of using QEMU, Syzkaller, and GDB for kernel debugging.
 
@@ -148,7 +149,6 @@ I hope you found some useful tips or pointers from my blog, I wish you the very 
 
 ### Reach out to me
 **Email:** simeddon@gmail.com<br>
-**LinkedIn:** [linkedin.com/in/johndoe](https://www.linkedin.com/in/biscuitbobby/)  
-**GitHub:** [github.com/johndoe](https://github.com/BiscuitBobby)
+**LinkedIn:** [https://www.linkedin.com/in/biscuitbobby/](https://www.linkedin.com/in/biscuitbobby/)  
 
 ---
