@@ -1,5 +1,9 @@
 # My microblog to get into kernel debugging
-In this blog I will share my experience diving into kernel debugging and some of the essential tools I’ve used along the way. If you’re just starting out, there are some great blogs to get you started with debugging the kernel such as [this one](https://marliere.net/posts/1/) by Javier, which covers the basics of using QEMU, Syzkaller, and GDB for kernel debugging.
+
+[Dec 3, 2024 Siddharth Menon]
+
+
+In this blog I will share my experience diving into kernel debugging and some of the essential tools I’ve used along the way. If you’re just starting out, there are some great blogs to get you started with debugging the kernel such as [this one](https://hackerbikepacker.com/syzbot#35-debugging-with-qemu-and-gdb) by Javier, which covers the basics of using QEMU, Syzkaller, and GDB for kernel debugging.
 
 The linux kernel is the first major open-source project I've contributed to, and it’s been an incredibly rewarding experience. Although I’ve been a daily Linux user for years, I had little to no prior exposure to kernel development before joining this program. Looking back, I’m glad I invested the time and effort rather than letting the initial complexity intimidate me.
 
@@ -140,4 +144,13 @@ You can see the full set of parameters available to you [here](https://kworkflow
 
 ---
 
-I hope you found some useful tips or pointers from my blog, I wish you the very best on your kernel development journy.
+I hope you found some useful tips or pointers from my blog, I wish you the very best on your kernel development journey.
+
+---
+
+### Reach out to me
+**Email:** simeddon@gmail.com<br>
+**LinkedIn:** [linkedin.com/in/johndoe](https://www.linkedin.com/in/biscuitbobby/)  
+**GitHub:** [github.com/johndoe](https://github.com/BiscuitBobby)
+
+---
