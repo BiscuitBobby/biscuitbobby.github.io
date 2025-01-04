@@ -71,7 +71,8 @@ objdump -d vmlinux > vmlinux_disassembly.txt
 ```
 
 Once we generate the file, we can search for the memory address 81EE7924, which corresponds to the function `timerfd_clock_was_set+0x4/0x2e0` (81ee7920 + 0x4) 
-![[Pasted image 20240831013039.png]]
+![Pasted image 20240831013039](https://github.com/user-attachments/assets/a5eba201-3c04-433c-b48b-ef8dee8762f5)
+
 You can analyse the assembly code and its corresponding Kernel C function to identify potential issues, such as incorrect register usage, stack corruption, or unexpected control flow.
 
 # Other tools
