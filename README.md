@@ -93,6 +93,12 @@ vng
 ```
 The vm is an exact copy-on-write copy of your live system, which means that any changes made to the virtualized environment do not affect the host system
 
+What if I want to run the kernel in isolation from my host system?
+```bash
+virtme-run --kimg <path_to_kernel> --memory 512M --qemu-opts "-net none" --no-rw
+```
+The `--kimg` specifies the kernel image, `--memory` limits RAM, and `--net none` disables network access, preventing the virtual environment from connecting to the host network. The `--no-rw` option keeps the root filesystem in read-only mode.
+
 ## Cscope
 Cscope is a great tool for searching and navigating through the kernel. It works by building a symbol cross-reference table, allowing you to search for functions, macros, and symbols in the source code.
 
