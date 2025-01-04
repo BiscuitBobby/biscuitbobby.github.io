@@ -94,7 +94,9 @@ vng
 The vm is an exact copy-on-write copy of your live system, which means that any changes made to the virtualized environment do not affect the host system
 
 ## Cscope
-At the kernel root directory, In order to generate a Cscope database that includes all symbols across the directory tree, use the `-R` flag to search recursively we can run:
+Cscope is a great tool for searching and navigating through the kernel. It works by building a symbol cross-reference table, allowing you to search for functions, macros, and symbols in the source code.
+
+To generate a Cscope database that includes all symbols across the directory tree from the kernel root directory, use the -R flag to run a recursive search:
 ```
 cscope -R
 ```
