@@ -1,7 +1,7 @@
 <!-- 🌄 Banner Image -->
 <p align="center">
   <img
-    src=""
+    src="https://github.com/user-attachments/assets/0f339292-7f3a-4ed3-8e3f-8cc4f0b963ee"
     alt="My Blog Banner"
     width="100%"
     style="border-radius: 10px; height: 30vh; object-fit: cover;"
