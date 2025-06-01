@@ -1,6 +1,3 @@
-
----
-
 ## Welcome to My Corner of the Internet
 
 Dive into a collection of thoughts, tutorials, and stories from my journey through technology, hobbies, and everything in between.
@@ -8,7 +5,7 @@ I hope you find something that **catches your interest** or helps you **learn so
 
 ---
 
-## 📝 Blogs
+## Blogs
 
 <!-- Blog Post Card 1 -->
 ### Building a Simple RAM Disk Block Driver in Linux
@@ -68,3 +65,33 @@ I’m always eager to explore new things and dive into anything that piques my i
 <p align="center">
   © <strong>BiscuitBobby</strong> · All rights reserved.
 </p>
+<style>
+body {
+  background-color: #0d0d0d;   /* Dark background */
+  color: #d4d4d4;              /* Light gray text */
+  }
+
+  h2, h3 {
+  color: #f5f5f5;/* Bright white for headings */
+  }
+
+  em {
+  color: #d4d4d4;              /* Light grey for dates */
+  }
+
+  code {
+  display: inline-block;
+  background-color: #333333 !important;
+  color: #80cbc4;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.85em;
+  font-family: monospace;
+  margin-right: 6px;
+  }
+
+  hr {
+  background-color: #333333;   /* Divider line color */
+  }
+
+</style>
