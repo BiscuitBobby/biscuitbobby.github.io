@@ -1,6 +1,6 @@
 baseURL = 'https://biscuitbobby.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'BiscuitBobby Blogsite'
 
 [menu]
   [[menu.main]]
