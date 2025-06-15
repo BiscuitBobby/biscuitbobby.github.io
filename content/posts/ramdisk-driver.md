@@ -1,3 +1,18 @@
++++
+title = "Ramdisk Driver"
+date = "2025-01-03T20:19:42+05:30"
+#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+author = "BiscuitBobby"
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["RamDisk", "Linux", "Driver"]
+keywords = ["ramdisk", "Block Driver", "ram disk"]
+description = "In this post, we'll walk through the a basic RAM disk driver. This driver allocates a chunk of system memory and presents it to the Linux kernel as a standard block device."
+showFullContent = false
+readingTime = true
+hideComments = false
++++
+
 # Building a Simple RAM Disk Block Driver in Linux
 **This driver was specifically tested on Linux kernel 6.14.6**
 

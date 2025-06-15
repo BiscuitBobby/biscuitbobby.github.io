@@ -1,3 +1,18 @@
++++
+title = "Getting Into Kernel Debugging"
+date = "2024-12-15T20:10:15+05:30"
+#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+author = "BiscuitBobby"
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["Debugging", "Linux", "Qemu"]
+keywords = ["QEMU", "kernel development", "GDB", "kernel modules", "objdump", "virtme-ng", "Cscope", "Kernel Workflow Tool"]
+description = "In this blog I will share my experience diving into kernel debugging and some of the essential tools I’ve used along the way."
+showFullContent = false
+readingTime = true
+hideComments = false
++++
+
 # My microblog on getting into kernel debugging
 
 In this blog I will share my experience diving into kernel debugging and some of the essential tools I’ve used along the way. If you’re just starting out, there are some great blogs to get you started with debugging the kernel such as [this one](https://hackerbikepacker.com/syzbot#35-debugging-with-qemu-and-gdb) by Javier, which covers the basics of using QEMU, Syzkaller, and GDB for kernel debugging.

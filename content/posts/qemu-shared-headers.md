@@ -1,3 +1,16 @@
++++
+title = "QEMU Shared Headers & Module Development Setup"
+date = "2025-06-15T20:05:14+05:30"
+author = "BiscuitBobby"
+cover = ""
+tags = ["QEMU", "Linux Kernel"]
+keywords = ["QEMU", "kernel development", "virtio-9p", "kernel modules", "shared directory", "headers", "SELinux", "IIO dummy"]
+description = "A quick guide to setting up a QEMU VM for kernel development, including shared directories, networking, SELinux tuning, and managing headers/modules."
+showFullContent = false
+readingTime = true
+hideComments = false
++++
+
 # QEMU VM Setup for Kernel Development & Testing
 
 This guide outlines how to set up a QEMU virtual machine for kernel development, including sharing directories with the host, configuring network support, building kernel headers, and managing kernel modules.
